@@ -1,0 +1,26 @@
+{
+    "image_size": [
+        128,
+        128
+    ],
+    "normalization": {
+        "mean": [
+            0.5307622620514355,
+            0.4247844621284197,
+            0.45375735876534257
+        ],
+        "std": [
+            0.3372651465106808,
+            0.27289472993552294,
+            0.28794947875550586
+        ]
+    },
+    "augmentation": {
+        "rotation_degrees": 15,
+        "horizontal_flip_probability": 0.5,
+        "vertical_flip_probability": 0.5,
+        "brightness": 0.1,
+        "contrast": 0.1,
+        "saturation": 0.1
+    }
+}
